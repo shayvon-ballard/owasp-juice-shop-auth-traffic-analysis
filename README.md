@@ -2,7 +2,7 @@
 # Authentication Traffic Analysis (OWASP Juice Shop)
 
 ## Summary
-This project documents a passive review of authentication-related network traffic in OWASP Juice Shop using browser developer tools and Burp Suite Community Edition. The goal was to practice identifying login endpoints, validating request/response behavior, and reviewing headers/payload structure safely (non-intrusive).
+This project documents a passive review of authentication related network traffic in OWASP Juice Shop using browser developer tools and Burp Suite Community Edition. The goal was to practice identifying login endpoints, validating request/response behavior, and reviewing headers/payload structure safely (non-intrusive).
 
 ## Scope
 - Passive traffic inspection only (no exploitation)
@@ -19,7 +19,7 @@ This project documents a passive review of authentication-related network traffi
 ## Key Observations
 - Authentication attempts produced a **401 Unauthorized** response when invalid credentials were submitted.
 - No sensitive information was observed in server responses during failed authentication attempts.
-- Standard security-related headers were present; no obvious information leakage was identified from passive inspection.
+- Standard security related headers were present; no obvious information leakage was identified from passive inspection.
 
 ## Evidence
 Screenshots are provided in `/screenshots`:
